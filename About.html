@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About.html - Персональна сторінка</title>
+    <style>
+        /* Стилі для центрування заголовків */
+        h1, h2 {
+            text-align: center;
+        }
+        /* Стилі для спеціального блоку тексту (вимога 1.2) */
+        .special-text {
+            text-decoration: underline; /* Підкреслений */
+            font-weight: bold;         /* Жирний */
+            color: #006400;            /* Не чорний колір (темно-зелений) */
+            font-family: "Monotype Corsiva", cursive, sans-serif; /* Не стандартний шрифт */
+        }
+        /* Стилі для маркера списку (вимога 1.3) */
+        ul.circle-list {
+            list-style-type: circle;
+        }
+        /* Стилі для зображення (вимога 1.4) */
+        img {
+            width: 300px; /* Ширина 300px */
+            height: auto; /* Висота пропорційна */
+            display: block; /* Дозволяє центрувати зображення, якщо потрібно */
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Про мене</h1>
+    <hr> <!-- Горизонтальна лінія (1.6) -->
+
+    <p>
+        Вітаю на моїй персональній сторінці! Тут ви знайдете трохи інформації про мої інтереси,
+        навички та контактні дані. Я вивчаю веб-розробку і цей проєкт є моєю першою спробою
+        створити повноцінну статичну сторінку з використанням базових тегів HTML та CSS.
+    </p>
+
+    <h2>Мої улюблені предмети</h2>
+    <hr>
+
+    <div class="special-text">
+        <!-- Блок тексту зі спеціальним форматуванням (1.2) -->
+        <p>
+            У процесі навчання мені особливо подобаються предмети, пов'язані з програмуванням та дизайном.
+            Нижче наведено список дисциплін, які я вважаю найбільш захоплюючими та корисними для моєї
+            майбутньої кар'єри в IT-сфері.
+        </p>
+    </div>
+
+    <!-- Маркерований список з маркером-колом (1.3) -->
+    <ul class="circle-list">
+        <li>Веб-технології та веб-дизайн</li>
+        <li>Основи програмування (JavaScript/Python)</li>
+        <li>Бази даних</li>
+        <li>Комп'ютерна графіка</li>
+    </ul>
+
+    <h2>Фотографії та зображення</h2>
+    <hr>
+
+    <!-- Зображення з посиланням на джерело (1.4) -->
+    <p>Приклад зображення з Інтернету:</p>
+    <a href="unsplash.com" target="_blank" title="Перейти до джерела на Unsplash">
+        <img src="images.unsplash.com" alt="Фотографія робочого столу програміста">
+    </a>
+    <p>Натисніть на зображення вище, щоб перейти на сайт-джерело.</p>
+    
+    <h2>Додаткові матеріали (iframe)</h2>
+    <hr>
+
+    <p>Приклад вбудованого відео з YouTube (1.5):</p>
+    <!-- Замініть VIDEO_ID_HERE на реальний ідентифікатор відео -->
+    <iframe width="560" height="315" src="www.youtube.com" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <hr>
+
+    <p>Приклад вбудованої карти з Google Maps (1.5):</p>
+    <iframe src="www.google.com" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>Контактні дані</h2>
+    <hr>
+
+    <p>
+        Якщо у вас є запитання або пропозиції, не соромтеся зв'язатися зі мною.
+    </p>
+    <p>
+        Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+    </p>
+    <p>
+        Профіль GitHub: <a href="github.com" target="_blank">yourusername</a>
+    </p>
+
+</body>
+</html>
